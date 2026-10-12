@@ -1,0 +1,11 @@
+{
+  "category": "id_doc",
+  "doc_type": "Aadhaar",
+  "fields": {
+    "name": "Deepak Verma",
+    "date_of_birth": "16/09/1976",
+    "gender": "MALE",
+    "address": "699, MG Road, Jaipur",
+    "aadhaar_number": "9218 7853 8132"
+  }
+}

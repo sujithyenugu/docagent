@@ -1,0 +1,30 @@
+{
+  "category": "invoice",
+  "fields": {
+    "company_name": "Singh Auto Parts",
+    "gst_number": "04EHUNA5073K4ZP",
+    "city": "Hyderabad",
+    "invoice_number": "INV-2024734",
+    "invoice_date": "19/02/2025",
+    "due_date": "27/03/2024",
+    "buyer_name": "Vikram Singh",
+    "subtotal": "Rs.25,388.00",
+    "cgst": "Rs.2,284.92",
+    "sgst": "Rs.2,284.92",
+    "grand_total": "Rs.29,957.84"
+  },
+  "line_items": [
+    {
+      "description": "External Hard Drive",
+      "qty": 7,
+      "unit_price": 3499,
+      "total": 24493
+    },
+    {
+      "description": "Whiteboard Markers",
+      "qty": 5,
+      "unit_price": 179,
+      "total": 895
+    }
+  ]
+}

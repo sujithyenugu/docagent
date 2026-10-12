@@ -1,0 +1,82 @@
+{
+  "category": "ledger",
+  "fields": {
+    "shop_name": "Amit's General Store",
+    "month": "February",
+    "year": "2025",
+    "closing_balance": "13951",
+    "num_entries": "10"
+  },
+  "entries": [
+    {
+      "date": "01/02/2025",
+      "description": "Utility bill",
+      "debit": "",
+      "credit": "4987",
+      "balance": "18340"
+    },
+    {
+      "date": "02/02/2025",
+      "description": "Misc expenses",
+      "debit": "266",
+      "credit": "",
+      "balance": "18074"
+    },
+    {
+      "date": "03/02/2025",
+      "description": "Sale of goods",
+      "debit": "2355",
+      "credit": "",
+      "balance": "15719"
+    },
+    {
+      "date": "04/02/2025",
+      "description": "Sale of goods",
+      "debit": "261",
+      "credit": "",
+      "balance": "15458"
+    },
+    {
+      "date": "05/02/2025",
+      "description": "Misc expenses",
+      "debit": "",
+      "credit": "4794",
+      "balance": "20252"
+    },
+    {
+      "date": "06/02/2025",
+      "description": "Utility bill",
+      "debit": "1702",
+      "credit": "",
+      "balance": "18550"
+    },
+    {
+      "date": "07/02/2025",
+      "description": "Goods received",
+      "debit": "4477",
+      "credit": "",
+      "balance": "14073"
+    },
+    {
+      "date": "08/02/2025",
+      "description": "Misc expenses",
+      "debit": "",
+      "credit": "2312",
+      "balance": "16385"
+    },
+    {
+      "date": "09/02/2025",
+      "description": "Salary paid",
+      "debit": "381",
+      "credit": "",
+      "balance": "16004"
+    },
+    {
+      "date": "10/02/2025",
+      "description": "Salary paid",
+      "debit": "2053",
+      "credit": "",
+      "balance": "13951"
+    }
+  ]
+}

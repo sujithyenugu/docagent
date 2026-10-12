@@ -1,0 +1,17 @@
+{
+  "category": "govt_form",
+  "fields": {
+    "form_title": "Caste Certificate Application",
+    "state": "Telangana",
+    "applicant_name": "Rohit Bose",
+    "date_of_birth": "09/02/1982",
+    "gender": "Male",
+    "district": "North Hyderabad",
+    "city": "Hyderabad",
+    "ward": "Ward No. 16",
+    "pin_code": "144051",
+    "mobile_number": "+91 9174244863",
+    "aadhaar_number": "5602 8999 2240",
+    "application_date": "25/10/2023"
+  }
+}

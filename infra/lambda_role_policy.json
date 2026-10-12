@@ -1,0 +1,40 @@
+{
+  "Version": "2012-10-17",
+  "Comment": "Attach to the Lambda execution role (documentagent-lambda-role).",
+  "Statement": [
+    {
+      "Sid": "ReadInputDocuments",
+      "Effect": "Allow",
+      "Action": ["s3:GetObject"],
+      "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*/input/*"
+    },
+    {
+      "Sid": "WriteOutputDocuments",
+      "Effect": "Allow",
+      "Action": ["s3:PutObject"],
+      "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*/output/*"
+    },
+    {
+      "Sid": "SyncKnowledgeBase",
+      "Effect": "Allow",
+      "Action": ["bedrock:StartIngestionJob"],
+      "Resource": "arn:aws:bedrock:YOUR_REGION:YOUR_ACCOUNT_ID:knowledge-base/YOUR_KB_ID"
+    },
+    {
+      "Sid": "FetchLandingAiKey",
+      "Effect": "Allow",
+      "Action": ["secretsmanager:GetSecretValue"],
+      "Resource": "arn:aws:secretsmanager:YOUR_REGION:YOUR_ACCOUNT_ID:secret:documentagent/landing-ai-key-*"
+    },
+    {
+      "Sid": "CloudWatchLogs",
+      "Effect": "Allow",
+      "Action": [
+        "logs:CreateLogGroup",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents"
+      ],
+      "Resource": "arn:aws:logs:*:*:*"
+    }
+  ]
+}

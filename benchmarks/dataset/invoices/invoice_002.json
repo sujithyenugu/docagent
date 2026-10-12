@@ -1,0 +1,42 @@
+{
+  "category": "invoice",
+  "fields": {
+    "company_name": "Mehta Enterprises Pvt Ltd",
+    "gst_number": "30EJIDA4191X6ZW",
+    "city": "Pune",
+    "invoice_number": "INV-2024131",
+    "invoice_date": "27/03/2025",
+    "due_date": "20/11/2025",
+    "buyer_name": "Sunita Devi",
+    "subtotal": "Rs.7,588.00",
+    "cgst": "Rs.682.92",
+    "sgst": "Rs.682.92",
+    "grand_total": "Rs.8,953.84"
+  },
+  "line_items": [
+    {
+      "description": "Printer Paper (500 sheets)",
+      "qty": 5,
+      "unit_price": 349,
+      "total": 1745
+    },
+    {
+      "description": "Whiteboard Markers",
+      "qty": 7,
+      "unit_price": 179,
+      "total": 1253
+    },
+    {
+      "description": "Stapler Set",
+      "qty": 8,
+      "unit_price": 249,
+      "total": 1992
+    },
+    {
+      "description": "Monitor Stand",
+      "qty": 2,
+      "unit_price": 1299,
+      "total": 2598
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "DocumentAgent",
+    "slug": "documentagent",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1e3a5f"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1e3a5f"
+      },
+      "package": "com.documentagent.app",
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35,
+      "buildToolsVersion": "36.1.0",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.documentagent.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Camera is used to photograph student answer sheets for grading.",
+        "NSPhotoLibraryUsageDescription": "Photo library access lets you select existing photos of student assignments."
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Camera is used to photograph student answer sheets for grading."
+        }
+      ],
+      "expo-sqlite"
+    ],
+    "scheme": "documentagent",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

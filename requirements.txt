@@ -1,0 +1,22 @@
+streamlit>=1.32.0
+landingai-ade>=0.1.0
+python-dotenv>=1.0.0
+pytesseract>=0.3.10
+pandas>=2.0.0
+matplotlib>=3.7.0
+pillow>=10.0.0
+boto3>=1.34.0
+requests>=2.31.0
+requests-aws4auth>=1.3.0
+strands-agents>=0.1.0
+pymupdf>=1.24.0
+# Local extraction — Apple MLX (Mac-only; environment markers make this a
+# no-op on Linux, so the Docker image build is unaffected)
+mlx>=0.32.2; sys_platform == "darwin" and platform_machine == "arm64"
+mlx-vlm>=0.7.2; sys_platform == "darwin" and platform_machine == "arm64"
+huggingface_hub>=0.24.0
+# Phase 4 — FastAPI backend
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+httpx>=0.27.0
+anyio>=4.0.0

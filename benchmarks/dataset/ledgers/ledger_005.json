@@ -1,0 +1,117 @@
+{
+  "category": "ledger",
+  "fields": {
+    "shop_name": "Vikram's General Store",
+    "month": "December",
+    "year": "2023",
+    "closing_balance": "14475",
+    "num_entries": "15"
+  },
+  "entries": [
+    {
+      "date": "01/12/2023",
+      "description": "Sale of goods",
+      "debit": "1859",
+      "credit": "",
+      "balance": "9427"
+    },
+    {
+      "date": "02/12/2023",
+      "description": "Utility bill",
+      "debit": "",
+      "credit": "3303",
+      "balance": "12730"
+    },
+    {
+      "date": "03/12/2023",
+      "description": "Sale of goods",
+      "debit": "1529",
+      "credit": "",
+      "balance": "11201"
+    },
+    {
+      "date": "04/12/2023",
+      "description": "Rent paid",
+      "debit": "724",
+      "credit": "",
+      "balance": "10477"
+    },
+    {
+      "date": "05/12/2023",
+      "description": "Rent paid",
+      "debit": "",
+      "credit": "1024",
+      "balance": "11501"
+    },
+    {
+      "date": "06/12/2023",
+      "description": "Customer payment",
+      "debit": "",
+      "credit": "3688",
+      "balance": "15189"
+    },
+    {
+      "date": "07/12/2023",
+      "description": "Rent paid",
+      "debit": "",
+      "credit": "4899",
+      "balance": "20088"
+    },
+    {
+      "date": "08/12/2023",
+      "description": "Rent paid",
+      "debit": "2407",
+      "credit": "",
+      "balance": "17681"
+    },
+    {
+      "date": "09/12/2023",
+      "description": "Salary paid",
+      "debit": "",
+      "credit": "2027",
+      "balance": "19708"
+    },
+    {
+      "date": "10/12/2023",
+      "description": "Customer payment",
+      "debit": "1781",
+      "credit": "",
+      "balance": "17927"
+    },
+    {
+      "date": "11/12/2023",
+      "description": "Purchase payment",
+      "debit": "",
+      "credit": "1634",
+      "balance": "19561"
+    },
+    {
+      "date": "12/12/2023",
+      "description": "Sale of goods",
+      "debit": "",
+      "credit": "1696",
+      "balance": "21257"
+    },
+    {
+      "date": "13/12/2023",
+      "description": "Goods received",
+      "debit": "2521",
+      "credit": "",
+      "balance": "18736"
+    },
+    {
+      "date": "14/12/2023",
+      "description": "Purchase payment",
+      "debit": "",
+      "credit": "393",
+      "balance": "19129"
+    },
+    {
+      "date": "15/12/2023",
+      "description": "Sale of goods",
+      "debit": "4654",
+      "credit": "",
+      "balance": "14475"
+    }
+  ]
+}

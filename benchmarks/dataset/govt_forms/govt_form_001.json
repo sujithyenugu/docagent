@@ -1,0 +1,17 @@
+{
+  "category": "govt_form",
+  "fields": {
+    "form_title": "Ration Card Application Form",
+    "state": "Tamil Nadu",
+    "applicant_name": "Nisha Kapoor",
+    "date_of_birth": "09/11/1984",
+    "gender": "Female",
+    "district": "North Chennai",
+    "city": "Chennai",
+    "ward": "Ward No. 3",
+    "pin_code": "288354",
+    "mobile_number": "+91 8242732152",
+    "aadhaar_number": "6631 7000 1043",
+    "application_date": "11/02/2024"
+  }
+}

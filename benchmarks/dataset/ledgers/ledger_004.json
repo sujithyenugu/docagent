@@ -1,0 +1,96 @@
+{
+  "category": "ledger",
+  "fields": {
+    "shop_name": "Sunita's General Store",
+    "month": "January",
+    "year": "2023",
+    "closing_balance": "17337",
+    "num_entries": "12"
+  },
+  "entries": [
+    {
+      "date": "01/01/2023",
+      "description": "Salary paid",
+      "debit": "1829",
+      "credit": "",
+      "balance": "10954"
+    },
+    {
+      "date": "02/01/2023",
+      "description": "Salary paid",
+      "debit": "1191",
+      "credit": "",
+      "balance": "9763"
+    },
+    {
+      "date": "03/01/2023",
+      "description": "Sale of goods",
+      "debit": "1827",
+      "credit": "",
+      "balance": "7936"
+    },
+    {
+      "date": "04/01/2023",
+      "description": "Sale of goods",
+      "debit": "",
+      "credit": "2505",
+      "balance": "10441"
+    },
+    {
+      "date": "05/01/2023",
+      "description": "Rent paid",
+      "debit": "3250",
+      "credit": "",
+      "balance": "7191"
+    },
+    {
+      "date": "06/01/2023",
+      "description": "Misc expenses",
+      "debit": "",
+      "credit": "2569",
+      "balance": "9760"
+    },
+    {
+      "date": "07/01/2023",
+      "description": "Goods received",
+      "debit": "",
+      "credit": "1445",
+      "balance": "11205"
+    },
+    {
+      "date": "08/01/2023",
+      "description": "Customer payment",
+      "debit": "808",
+      "credit": "",
+      "balance": "10397"
+    },
+    {
+      "date": "09/01/2023",
+      "description": "Rent paid",
+      "debit": "602",
+      "credit": "",
+      "balance": "9795"
+    },
+    {
+      "date": "10/01/2023",
+      "description": "Sale of goods",
+      "debit": "",
+      "credit": "2817",
+      "balance": "12612"
+    },
+    {
+      "date": "11/01/2023",
+      "description": "Customer payment",
+      "debit": "",
+      "credit": "3029",
+      "balance": "15641"
+    },
+    {
+      "date": "12/01/2023",
+      "description": "Misc expenses",
+      "debit": "",
+      "credit": "1696",
+      "balance": "17337"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "category": "ledger",
+  "fields": {
+    "shop_name": "Rajesh's General Store",
+    "month": "September",
+    "year": "2023",
+    "closing_balance": "10489",
+    "num_entries": "7"
+  },
+  "entries": [
+    {
+      "date": "01/09/2023",
+      "description": "Purchase payment",
+      "debit": "2800",
+      "credit": "",
+      "balance": "6523"
+    },
+    {
+      "date": "02/09/2023",
+      "description": "Purchase payment",
+      "debit": "",
+      "credit": "4447",
+      "balance": "10970"
+    },
+    {
+      "date": "03/09/2023",
+      "description": "Salary paid",
+      "debit": "3279",
+      "credit": "",
+      "balance": "7691"
+    },
+    {
+      "date": "04/09/2023",
+      "description": "Misc expenses",
+      "debit": "1105",
+      "credit": "",
+      "balance": "6586"
+    },
+    {
+      "date": "05/09/2023",
+      "description": "Misc expenses",
+      "debit": "679",
+      "credit": "",
+      "balance": "5907"
+    },
+    {
+      "date": "06/09/2023",
+      "description": "Customer payment",
+      "debit": "",
+      "credit": "2877",
+      "balance": "8784"
+    },
+    {
+      "date": "07/09/2023",
+      "description": "Misc expenses",
+      "debit": "",
+      "credit": "1705",
+      "balance": "10489"
+    }
+  ]
+}

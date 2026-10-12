@@ -1,0 +1,18 @@
+# Force a light theme regardless of the OS/browser dark-mode preference.
+#
+# Without this, Streamlit's theme defaults to "auto" and follows the system
+# color scheme for its own native widgets (menus, file uploader, selectbox,
+# buttons, captions). This app's custom CSS (common.py) always forces a
+# white page background — so on a system in dark mode, Streamlit renders its
+# native widget text in light/white colors (correct for ITS dark theme) on
+# top of our forced-white background, making that text invisible.
+[theme]
+base = "light"
+primaryColor = "#4f46e5"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8fafc"
+textColor = "#0f172a"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

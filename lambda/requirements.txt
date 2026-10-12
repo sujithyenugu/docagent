@@ -1,0 +1,5 @@
+# Lambda deployment package dependencies.
+# boto3 is pre-installed in the Lambda runtime; pin it here for local testing only.
+# Build: pip install -r requirements.txt -t package/
+landingai-ade>=0.1.0
+boto3>=1.34.0

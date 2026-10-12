@@ -1,0 +1,36 @@
+{
+  "category": "invoice",
+  "fields": {
+    "company_name": "Patel Goods & Services",
+    "gst_number": "13KQBFU1623U5ZV",
+    "city": "Delhi",
+    "invoice_number": "INV-2024087",
+    "invoice_date": "23/06/2023",
+    "due_date": "18/04/2024",
+    "buyer_name": "Sunita Devi",
+    "subtotal": "Rs.7,226.00",
+    "cgst": "Rs.650.34",
+    "sgst": "Rs.650.34",
+    "grand_total": "Rs.8,526.68"
+  },
+  "line_items": [
+    {
+      "description": "USB Cables",
+      "qty": 4,
+      "unit_price": 199,
+      "total": 796
+    },
+    {
+      "description": "Whiteboard Markers",
+      "qty": 8,
+      "unit_price": 179,
+      "total": 1432
+    },
+    {
+      "description": "Office Chairs",
+      "qty": 2,
+      "unit_price": 2499,
+      "total": 4998
+    }
+  ]
+}

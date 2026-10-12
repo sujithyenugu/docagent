@@ -1,0 +1,82 @@
+{
+  "category": "ledger",
+  "fields": {
+    "shop_name": "Priya's General Store",
+    "month": "March",
+    "year": "2023",
+    "closing_balance": "17614",
+    "num_entries": "10"
+  },
+  "entries": [
+    {
+      "date": "01/03/2023",
+      "description": "Sale of goods",
+      "debit": "",
+      "credit": "1710",
+      "balance": "14536"
+    },
+    {
+      "date": "02/03/2023",
+      "description": "Utility bill",
+      "debit": "",
+      "credit": "1487",
+      "balance": "16023"
+    },
+    {
+      "date": "03/03/2023",
+      "description": "Sale of goods",
+      "debit": "",
+      "credit": "4603",
+      "balance": "20626"
+    },
+    {
+      "date": "04/03/2023",
+      "description": "Purchase payment",
+      "debit": "",
+      "credit": "1243",
+      "balance": "21869"
+    },
+    {
+      "date": "05/03/2023",
+      "description": "Sale of goods",
+      "debit": "3424",
+      "credit": "",
+      "balance": "18445"
+    },
+    {
+      "date": "06/03/2023",
+      "description": "Goods received",
+      "debit": "2881",
+      "credit": "",
+      "balance": "15564"
+    },
+    {
+      "date": "07/03/2023",
+      "description": "Sale of goods",
+      "debit": "",
+      "credit": "2651",
+      "balance": "18215"
+    },
+    {
+      "date": "08/03/2023",
+      "description": "Sale of goods",
+      "debit": "",
+      "credit": "1099",
+      "balance": "19314"
+    },
+    {
+      "date": "09/03/2023",
+      "description": "Goods received",
+      "debit": "4318",
+      "credit": "",
+      "balance": "14996"
+    },
+    {
+      "date": "10/03/2023",
+      "description": "Utility bill",
+      "debit": "",
+      "credit": "2618",
+      "balance": "17614"
+    }
+  ]
+}

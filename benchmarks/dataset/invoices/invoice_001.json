@@ -1,0 +1,30 @@
+{
+  "category": "invoice",
+  "fields": {
+    "company_name": "Sharma Trading Co.",
+    "gst_number": "22ZESYJ9406X7Z1",
+    "city": "Pune",
+    "invoice_number": "INV-2024262",
+    "invoice_date": "18/09/2022",
+    "due_date": "22/07/2024",
+    "buyer_name": "Deepak Verma",
+    "subtotal": "Rs.21,388.00",
+    "cgst": "Rs.1,924.92",
+    "sgst": "Rs.1,924.92",
+    "grand_total": "Rs.25,237.84"
+  },
+  "line_items": [
+    {
+      "description": "Printer Paper (500 sheets)",
+      "qty": 4,
+      "unit_price": 349,
+      "total": 1396
+    },
+    {
+      "description": "Office Chairs",
+      "qty": 8,
+      "unit_price": 2499,
+      "total": 19992
+    }
+  ]
+}

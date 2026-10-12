@@ -1,0 +1,11 @@
+{
+  "category": "id_doc",
+  "doc_type": "Aadhaar",
+  "fields": {
+    "name": "Sunita Devi",
+    "date_of_birth": "11/03/1993",
+    "gender": "FEMALE",
+    "address": "694, Gandhi Nagar, Bengaluru",
+    "aadhaar_number": "7108 1439 6620"
+  }
+}

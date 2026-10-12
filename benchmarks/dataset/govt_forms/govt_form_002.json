@@ -1,0 +1,17 @@
+{
+  "category": "govt_form",
+  "fields": {
+    "form_title": "Municipal Birth Certificate Application",
+    "state": "Delhi",
+    "applicant_name": "Mahesh Tiwari",
+    "date_of_birth": "03/05/2005",
+    "gender": "Female",
+    "district": "West Delhi",
+    "city": "Delhi",
+    "ward": "Ward No. 25",
+    "pin_code": "336728",
+    "mobile_number": "+91 9364729570",
+    "aadhaar_number": "4856 2967 8648",
+    "application_date": "07/11/2023"
+  }
+}

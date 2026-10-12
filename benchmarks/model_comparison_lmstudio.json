@@ -1,0 +1,2592 @@
+{
+  "qwen2.5-vl-3b": {
+    "backend": "local",
+    "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+    "total_documents": 20,
+    "field_accuracy": 0.501,
+    "fuzzy_accuracy": 0.505,
+    "avg_latency_ms": 2680,
+    "total_cost_usd": 0.0,
+    "categories": {
+      "govt_form": {
+        "count": 5,
+        "field_accuracy": 0.883,
+        "fuzzy_accuracy": 0.9,
+        "avg_latency_ms": 2873,
+        "total_cost_usd": 0.0
+      },
+      "id_doc": {
+        "count": 5,
+        "field_accuracy": 0.45,
+        "fuzzy_accuracy": 0.45,
+        "avg_latency_ms": 1460,
+        "total_cost_usd": 0.0
+      },
+      "invoice": {
+        "count": 5,
+        "field_accuracy": 0.509,
+        "fuzzy_accuracy": 0.509,
+        "avg_latency_ms": 3065,
+        "total_cost_usd": 0.0
+      },
+      "ledger": {
+        "count": 5,
+        "field_accuracy": 0.16,
+        "fuzzy_accuracy": 0.16,
+        "avg_latency_ms": 3321,
+        "total_cost_usd": 0.0
+      }
+    },
+    "documents": [
+      {
+        "file": "govt_form_001.png",
+        "category": "govt_form",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 4819,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.917,
+        "fuzzy_accuracy": 0.917,
+        "num_fields": 12,
+        "exact_matches": 11,
+        "field_results": {
+          "form_title": {
+            "gold": "Ration Card Application Form",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "state": {
+            "gold": "Tamil Nadu",
+            "pred": "Tamil Nadu",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "applicant_name": {
+            "gold": "Nisha Kapoor",
+            "pred": "Nisha Kapoor",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "09/11/1984",
+            "pred": "09/11/1984",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "gender": {
+            "gold": "Female",
+            "pred": "Female",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "district": {
+            "gold": "North Chennai",
+            "pred": "North Chennai",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "city": {
+            "gold": "Chennai",
+            "pred": "Chennai",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "ward": {
+            "gold": "Ward No. 3",
+            "pred": "Ward No. 3",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pin_code": {
+            "gold": "288354",
+            "pred": "288354",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "mobile_number": {
+            "gold": "+91 8242732152",
+            "pred": "+91 8242732152",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "aadhaar_number": {
+            "gold": "6631 7000 1043",
+            "pred": "6631 7000 1043",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "application_date": {
+            "gold": "11/02/2024",
+            "pred": "11/02/2024",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "govt_form_002.png",
+        "category": "govt_form",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 2393,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.917,
+        "fuzzy_accuracy": 0.917,
+        "num_fields": 12,
+        "exact_matches": 11,
+        "field_results": {
+          "form_title": {
+            "gold": "Municipal Birth Certificate Application",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "state": {
+            "gold": "Delhi",
+            "pred": "Delhi",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "applicant_name": {
+            "gold": "Mahesh Tiwari",
+            "pred": "Mahesh Tiwari",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "03/05/2005",
+            "pred": "03/05/2005",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "gender": {
+            "gold": "Female",
+            "pred": "Female",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "district": {
+            "gold": "West Delhi",
+            "pred": "West Delhi",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "city": {
+            "gold": "Delhi",
+            "pred": "Delhi",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "ward": {
+            "gold": "Ward No. 25",
+            "pred": "Ward No. 25",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pin_code": {
+            "gold": "336728",
+            "pred": "336728",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "mobile_number": {
+            "gold": "+91 9364729570",
+            "pred": "+91 9364729570",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "aadhaar_number": {
+            "gold": "4856 2967 8648",
+            "pred": "4856 2967 8648",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "application_date": {
+            "gold": "07/11/2023",
+            "pred": "07/11/2023",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "govt_form_003.png",
+        "category": "govt_form",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 2377,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.917,
+        "fuzzy_accuracy": 0.917,
+        "num_fields": 12,
+        "exact_matches": 11,
+        "field_results": {
+          "form_title": {
+            "gold": "Caste Certificate Application",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "state": {
+            "gold": "Telangana",
+            "pred": "Telangana",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "applicant_name": {
+            "gold": "Rohit Bose",
+            "pred": "Rohit Bose",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "09/02/1982",
+            "pred": "09/02/1982",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "gender": {
+            "gold": "Male",
+            "pred": "Male",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "district": {
+            "gold": "North Hyderabad",
+            "pred": "North Hyderabad",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "city": {
+            "gold": "Hyderabad",
+            "pred": "Hyderabad",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "ward": {
+            "gold": "Ward No. 16",
+            "pred": "Ward No. 16",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pin_code": {
+            "gold": "144051",
+            "pred": "144051",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "mobile_number": {
+            "gold": "+91 9174244863",
+            "pred": "+91 9174244863",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "aadhaar_number": {
+            "gold": "5602 8999 2240",
+            "pred": "5602 8999 2240",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "application_date": {
+            "gold": "25/10/2023",
+            "pred": "25/10/2023",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "govt_form_004.png",
+        "category": "govt_form",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 2403,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.833,
+        "fuzzy_accuracy": 0.875,
+        "num_fields": 12,
+        "exact_matches": 10,
+        "field_results": {
+          "form_title": {
+            "gold": "Domicile Certificate Application",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "state": {
+            "gold": "Telangana",
+            "pred": "Telangana",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "applicant_name": {
+            "gold": "Amit Patel",
+            "pred": "Amit Patel",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "15/03/1961",
+            "pred": "15/03/1961",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "gender": {
+            "gold": "Male",
+            "pred": "Male",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "district": {
+            "gold": "West Hyderabad",
+            "pred": "West Hyderabad",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "city": {
+            "gold": "Hyderabad",
+            "pred": "Hyderabad",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "ward": {
+            "gold": "Ward No. 14",
+            "pred": "Ward No. 14",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pin_code": {
+            "gold": "807070",
+            "pred": "807070",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "mobile_number": {
+            "gold": "+91 8494787721",
+            "pred": "+91 849478721",
+            "exact": false,
+            "token_f1": 0.5
+          },
+          "aadhaar_number": {
+            "gold": "1062 3352 6806",
+            "pred": "1062 3352 6806",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "application_date": {
+            "gold": "04/07/2024",
+            "pred": "04/07/2024",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "govt_form_005.png",
+        "category": "govt_form",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 2372,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.833,
+        "fuzzy_accuracy": 0.875,
+        "num_fields": 12,
+        "exact_matches": 10,
+        "field_results": {
+          "form_title": {
+            "gold": "Income Certificate Application",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "state": {
+            "gold": "Maharashtra",
+            "pred": "Maharashtra",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "applicant_name": {
+            "gold": "Pooja Mehta",
+            "pred": "Pooya Mehta",
+            "exact": false,
+            "token_f1": 0.5
+          },
+          "date_of_birth": {
+            "gold": "19/09/2005",
+            "pred": "19/09/2005",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "gender": {
+            "gold": "Other",
+            "pred": "Other",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "district": {
+            "gold": "South Mumbai",
+            "pred": "South Mumbai",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "city": {
+            "gold": "Mumbai",
+            "pred": "Mumbai",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "ward": {
+            "gold": "Ward No. 20",
+            "pred": "Ward No. 20",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pin_code": {
+            "gold": "815351",
+            "pred": "815351",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "mobile_number": {
+            "gold": "+91 8415669288",
+            "pred": "+91 8415669288",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "aadhaar_number": {
+            "gold": "8974 1794 6746",
+            "pred": "8974 1794 6746",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "application_date": {
+            "gold": "13/10/2025",
+            "pred": "13/10/2025",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "id_doc_001.png",
+        "category": "id_doc",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 1407,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.75,
+        "fuzzy_accuracy": 0.75,
+        "num_fields": 4,
+        "exact_matches": 3,
+        "field_results": {
+          "name": {
+            "gold": "DEEPAK VERMA",
+            "pred": "DEEPAK VERMA",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "fathers_name": {
+            "gold": "POOJA MEHTA",
+            "pred": "POOJA MEHTA",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "02/09/1982",
+            "pred": "02/09/1982",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pan_number": {
+            "gold": "RPQBH8525N",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "id_doc_002.png",
+        "category": "id_doc",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 1534,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.0,
+        "fuzzy_accuracy": 0.0,
+        "num_fields": 5,
+        "exact_matches": 0,
+        "field_results": {
+          "name": {
+            "gold": "Deepak Verma",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "date_of_birth": {
+            "gold": "16/09/1976",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gender": {
+            "gold": "MALE",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "address": {
+            "gold": "699, MG Road, Jaipur",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "aadhaar_number": {
+            "gold": "9218 7853 8132",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "id_doc_003.png",
+        "category": "id_doc",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 1416,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.75,
+        "fuzzy_accuracy": 0.75,
+        "num_fields": 4,
+        "exact_matches": 3,
+        "field_results": {
+          "name": {
+            "gold": "ROHIT BOSE",
+            "pred": "ROHIT BOSE",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "fathers_name": {
+            "gold": "LAKSHMI NARAYANAN",
+            "pred": "LAKSHMI NARAYANAN",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "24/09/1964",
+            "pred": "24/09/1964",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pan_number": {
+            "gold": "MLVCD7534H",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "id_doc_004.png",
+        "category": "id_doc",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 1542,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.0,
+        "fuzzy_accuracy": 0.0,
+        "num_fields": 5,
+        "exact_matches": 0,
+        "field_results": {
+          "name": {
+            "gold": "Sunita Devi",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "date_of_birth": {
+            "gold": "11/03/1993",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gender": {
+            "gold": "FEMALE",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "address": {
+            "gold": "694, Gandhi Nagar, Bengaluru",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "aadhaar_number": {
+            "gold": "7108 1439 6620",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "id_doc_005.png",
+        "category": "id_doc",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 1402,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.75,
+        "fuzzy_accuracy": 0.75,
+        "num_fields": 4,
+        "exact_matches": 3,
+        "field_results": {
+          "name": {
+            "gold": "DEEPAK VERMA",
+            "pred": "DEEPAK VERMA",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "fathers_name": {
+            "gold": "SARLA BAJAJ",
+            "pred": "SARLA BAJAJ",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "07/02/2000",
+            "pred": "07/02/2000",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pan_number": {
+            "gold": "MCKPS7430X",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "invoice_001.png",
+        "category": "invoice",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 2927,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.545,
+        "fuzzy_accuracy": 0.545,
+        "num_fields": 11,
+        "exact_matches": 6,
+        "field_results": {
+          "company_name": {
+            "gold": "Sharma Trading Co.",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gst_number": {
+            "gold": "22ZESYJ9406X7Z1",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "city": {
+            "gold": "Pune",
+            "pred": "Chennai",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_number": {
+            "gold": "INV-2024262",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_date": {
+            "gold": "18/09/2022",
+            "pred": "18/09/2022",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "due_date": {
+            "gold": "22/07/2024",
+            "pred": "22/07/2024",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "buyer_name": {
+            "gold": "Deepak Verma",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "subtotal": {
+            "gold": "Rs.21,388.00",
+            "pred": "Rs.21,388.00",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "cgst": {
+            "gold": "Rs.1,924.92",
+            "pred": "Rs.1,924.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "sgst": {
+            "gold": "Rs.1,924.92",
+            "pred": "Rs.1,924.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "grand_total": {
+            "gold": "Rs.25,237.84",
+            "pred": "Rs.25,237.84",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "invoice_002.png",
+        "category": "invoice",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 3493,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.545,
+        "fuzzy_accuracy": 0.545,
+        "num_fields": 11,
+        "exact_matches": 6,
+        "field_results": {
+          "company_name": {
+            "gold": "Mehta Enterprises Pvt Ltd",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gst_number": {
+            "gold": "30EJIDA4191X6ZW",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "city": {
+            "gold": "Pune",
+            "pred": "Chennai",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_number": {
+            "gold": "INV-2024131",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_date": {
+            "gold": "27/03/2025",
+            "pred": "27/03/2025",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "due_date": {
+            "gold": "20/11/2025",
+            "pred": "20/11/2025",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "buyer_name": {
+            "gold": "Sunita Devi",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "subtotal": {
+            "gold": "Rs.7,588.00",
+            "pred": "Rs.7,588.00",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "cgst": {
+            "gold": "Rs.682.92",
+            "pred": "Rs.682.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "sgst": {
+            "gold": "Rs.682.92",
+            "pred": "Rs.682.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "grand_total": {
+            "gold": "Rs.8,953.84",
+            "pred": "Rs.8,953.84",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "invoice_003.png",
+        "category": "invoice",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 3011,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.545,
+        "fuzzy_accuracy": 0.545,
+        "num_fields": 11,
+        "exact_matches": 6,
+        "field_results": {
+          "company_name": {
+            "gold": "Patel Goods & Services",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gst_number": {
+            "gold": "13KQBFU1623U5ZV",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "city": {
+            "gold": "Delhi",
+            "pred": "Pune",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_number": {
+            "gold": "INV-2024087",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_date": {
+            "gold": "23/06/2023",
+            "pred": "23/06/2023",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "due_date": {
+            "gold": "18/04/2024",
+            "pred": "18/04/2024",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "buyer_name": {
+            "gold": "Sunita Devi",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "subtotal": {
+            "gold": "Rs.7,226.00",
+            "pred": "Rs.7,226.00",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "cgst": {
+            "gold": "Rs.650.34",
+            "pred": "Rs.650.34",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "sgst": {
+            "gold": "Rs.650.34",
+            "pred": "Rs.650.34",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "grand_total": {
+            "gold": "Rs.8,526.68",
+            "pred": "Rs.8,526.68",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "invoice_004.png",
+        "category": "invoice",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 2990,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.455,
+        "fuzzy_accuracy": 0.455,
+        "num_fields": 11,
+        "exact_matches": 5,
+        "field_results": {
+          "company_name": {
+            "gold": "Kumar Brothers Ltd",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gst_number": {
+            "gold": "31PKRZP6424Q6Z2",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "city": {
+            "gold": "Kolkata",
+            "pred": "Chennai",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_number": {
+            "gold": "INV-2024784",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_date": {
+            "gold": "10/03/2024",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "due_date": {
+            "gold": "08/07/2025",
+            "pred": "08/07/2025",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "buyer_name": {
+            "gold": "Sunita Devi",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "subtotal": {
+            "gold": "Rs.25,883.00",
+            "pred": "Rs.25,883.00",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "cgst": {
+            "gold": "Rs.2,329.47",
+            "pred": "Rs.2,329.47",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "sgst": {
+            "gold": "Rs.2,329.47",
+            "pred": "Rs.2,329.47",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "grand_total": {
+            "gold": "Rs.30,541.94",
+            "pred": "Rs.30,541.94",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "invoice_005.png",
+        "category": "invoice",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 2904,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.455,
+        "fuzzy_accuracy": 0.455,
+        "num_fields": 11,
+        "exact_matches": 5,
+        "field_results": {
+          "company_name": {
+            "gold": "Singh Auto Parts",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gst_number": {
+            "gold": "04EHUNA5073K4ZP",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "city": {
+            "gold": "Hyderabad",
+            "pred": "Mumbai",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_number": {
+            "gold": "INV-2024734",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_date": {
+            "gold": "19/02/2025",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "due_date": {
+            "gold": "27/03/2024",
+            "pred": "27/03/2024",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "buyer_name": {
+            "gold": "Vikram Singh",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "subtotal": {
+            "gold": "Rs.25,388.00",
+            "pred": "Rs.25,388.00",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "cgst": {
+            "gold": "Rs.2,284.92",
+            "pred": "Rs.2,284.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "sgst": {
+            "gold": "Rs.2,284.92",
+            "pred": "Rs.2,284.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "grand_total": {
+            "gold": "Rs.29,957.84",
+            "pred": "Rs.29,957.84",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "ledger_001.png",
+        "category": "ledger",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 2936,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.2,
+        "fuzzy_accuracy": 0.2,
+        "num_fields": 5,
+        "exact_matches": 1,
+        "field_results": {
+          "shop_name": {
+            "gold": "Rajesh's General Store",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "month": {
+            "gold": "September",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "year": {
+            "gold": "2023",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "closing_balance": {
+            "gold": "10489",
+            "pred": "Rs. 10489",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "num_entries": {
+            "gold": "7",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "ledger_002.png",
+        "category": "ledger",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 3793,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.2,
+        "fuzzy_accuracy": 0.2,
+        "num_fields": 5,
+        "exact_matches": 1,
+        "field_results": {
+          "shop_name": {
+            "gold": "Priya's General Store",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "month": {
+            "gold": "March",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "year": {
+            "gold": "2023",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "closing_balance": {
+            "gold": "17614",
+            "pred": "Rs. 17614",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "num_entries": {
+            "gold": "10",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "ledger_003.png",
+        "category": "ledger",
+        "model": "dpt-2-mini",
+        "extraction_ok": false,
+        "latency_ms": 707,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.0,
+        "fuzzy_accuracy": 0.0,
+        "num_fields": 5,
+        "exact_matches": 0,
+        "field_results": {
+          "shop_name": {
+            "gold": "Amit's General Store",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "month": {
+            "gold": "February",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "year": {
+            "gold": "2025",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "closing_balance": {
+            "gold": "13951",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "num_entries": {
+            "gold": "10",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "ledger_004.png",
+        "category": "ledger",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 4127,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.2,
+        "fuzzy_accuracy": 0.2,
+        "num_fields": 5,
+        "exact_matches": 1,
+        "field_results": {
+          "shop_name": {
+            "gold": "Sunita's General Store",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "month": {
+            "gold": "January",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "year": {
+            "gold": "2023",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "closing_balance": {
+            "gold": "17337",
+            "pred": "Rs. 17337",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "num_entries": {
+            "gold": "12",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "ledger_005.png",
+        "category": "ledger",
+        "model": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+        "extraction_ok": true,
+        "latency_ms": 5040,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.2,
+        "fuzzy_accuracy": 0.2,
+        "num_fields": 5,
+        "exact_matches": 1,
+        "field_results": {
+          "shop_name": {
+            "gold": "Vikram's General Store",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "month": {
+            "gold": "December",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "year": {
+            "gold": "2023",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "closing_balance": {
+            "gold": "14475",
+            "pred": "Rs. 14475",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "num_entries": {
+            "gold": "15",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      }
+    ],
+    "label": "qwen2.5-vl-3b",
+    "spec": "qwen2.5-vl-3b=local:mlx-community/Qwen2.5-VL-3B-Instruct-4bit"
+  },
+  "qwen3-vl-32b-lmstudio": {
+    "backend": "lmstudio",
+    "model": "qwen3-vl-32b-instruct",
+    "total_documents": 20,
+    "field_accuracy": 0.519,
+    "fuzzy_accuracy": 0.519,
+    "avg_latency_ms": 28448,
+    "total_cost_usd": 0.0,
+    "categories": {
+      "govt_form": {
+        "count": 5,
+        "field_accuracy": 0.917,
+        "fuzzy_accuracy": 0.917,
+        "avg_latency_ms": 27647,
+        "total_cost_usd": 0.0
+      },
+      "id_doc": {
+        "count": 5,
+        "field_accuracy": 0.45,
+        "fuzzy_accuracy": 0.45,
+        "avg_latency_ms": 16384,
+        "total_cost_usd": 0.0
+      },
+      "invoice": {
+        "count": 5,
+        "field_accuracy": 0.509,
+        "fuzzy_accuracy": 0.509,
+        "avg_latency_ms": 29770,
+        "total_cost_usd": 0.0
+      },
+      "ledger": {
+        "count": 5,
+        "field_accuracy": 0.2,
+        "fuzzy_accuracy": 0.2,
+        "avg_latency_ms": 39992,
+        "total_cost_usd": 0.0
+      }
+    },
+    "documents": [
+      {
+        "file": "govt_form_001.png",
+        "category": "govt_form",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 30295,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.917,
+        "fuzzy_accuracy": 0.917,
+        "num_fields": 12,
+        "exact_matches": 11,
+        "field_results": {
+          "form_title": {
+            "gold": "Ration Card Application Form",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "state": {
+            "gold": "Tamil Nadu",
+            "pred": "Tamil Nadu",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "applicant_name": {
+            "gold": "Nisha Kapoor",
+            "pred": "Nisha Kapoor",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "09/11/1984",
+            "pred": "09/11/1984",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "gender": {
+            "gold": "Female",
+            "pred": "Female",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "district": {
+            "gold": "North Chennai",
+            "pred": "North Chennai",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "city": {
+            "gold": "Chennai",
+            "pred": "Chennai",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "ward": {
+            "gold": "Ward No. 3",
+            "pred": "Ward No. 3",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pin_code": {
+            "gold": "288354",
+            "pred": "288354",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "mobile_number": {
+            "gold": "+91 8242732152",
+            "pred": "+91 8242732152",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "aadhaar_number": {
+            "gold": "6631 7000 1043",
+            "pred": "6631 7000 1043",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "application_date": {
+            "gold": "11/02/2024",
+            "pred": "11/02/2024",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "govt_form_002.png",
+        "category": "govt_form",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 27910,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.917,
+        "fuzzy_accuracy": 0.917,
+        "num_fields": 12,
+        "exact_matches": 11,
+        "field_results": {
+          "form_title": {
+            "gold": "Municipal Birth Certificate Application",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "state": {
+            "gold": "Delhi",
+            "pred": "Delhi",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "applicant_name": {
+            "gold": "Mahesh Tiwari",
+            "pred": "Mahesh Tiwari",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "03/05/2005",
+            "pred": "03/05/2005",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "gender": {
+            "gold": "Female",
+            "pred": "Female",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "district": {
+            "gold": "West Delhi",
+            "pred": "West Delhi",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "city": {
+            "gold": "Delhi",
+            "pred": "Delhi",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "ward": {
+            "gold": "Ward No. 25",
+            "pred": "Ward No. 25",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pin_code": {
+            "gold": "336728",
+            "pred": "336728",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "mobile_number": {
+            "gold": "+91 9364729570",
+            "pred": "+91 9364729570",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "aadhaar_number": {
+            "gold": "4856 2967 8648",
+            "pred": "4856 2967 8648",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "application_date": {
+            "gold": "07/11/2023",
+            "pred": "07/11/2023",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "govt_form_003.png",
+        "category": "govt_form",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 27864,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.917,
+        "fuzzy_accuracy": 0.917,
+        "num_fields": 12,
+        "exact_matches": 11,
+        "field_results": {
+          "form_title": {
+            "gold": "Caste Certificate Application",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "state": {
+            "gold": "Telangana",
+            "pred": "Telangana",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "applicant_name": {
+            "gold": "Rohit Bose",
+            "pred": "Rohit Bose",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "09/02/1982",
+            "pred": "09/02/1982",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "gender": {
+            "gold": "Male",
+            "pred": "Male",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "district": {
+            "gold": "North Hyderabad",
+            "pred": "North Hyderabad",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "city": {
+            "gold": "Hyderabad",
+            "pred": "Hyderabad",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "ward": {
+            "gold": "Ward No. 16",
+            "pred": "Ward No. 16",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pin_code": {
+            "gold": "144051",
+            "pred": "144051",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "mobile_number": {
+            "gold": "+91 9174244863",
+            "pred": "+91 9174244863",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "aadhaar_number": {
+            "gold": "5602 8999 2240",
+            "pred": "5602 8999 2240",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "application_date": {
+            "gold": "25/10/2023",
+            "pred": "25/10/2023",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "govt_form_004.png",
+        "category": "govt_form",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 27750,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.917,
+        "fuzzy_accuracy": 0.917,
+        "num_fields": 12,
+        "exact_matches": 11,
+        "field_results": {
+          "form_title": {
+            "gold": "Domicile Certificate Application",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "state": {
+            "gold": "Telangana",
+            "pred": "Telangana",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "applicant_name": {
+            "gold": "Amit Patel",
+            "pred": "Amit Patel",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "15/03/1961",
+            "pred": "15/03/1961",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "gender": {
+            "gold": "Male",
+            "pred": "Male",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "district": {
+            "gold": "West Hyderabad",
+            "pred": "West Hyderabad",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "city": {
+            "gold": "Hyderabad",
+            "pred": "Hyderabad",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "ward": {
+            "gold": "Ward No. 14",
+            "pred": "Ward No. 14",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pin_code": {
+            "gold": "807070",
+            "pred": "807070",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "mobile_number": {
+            "gold": "+91 8494787721",
+            "pred": "+91 8494787721",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "aadhaar_number": {
+            "gold": "1062 3352 6806",
+            "pred": "1062 3352 6806",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "application_date": {
+            "gold": "04/07/2024",
+            "pred": "04/07/2024",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "govt_form_005.png",
+        "category": "govt_form",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 24415,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.917,
+        "fuzzy_accuracy": 0.917,
+        "num_fields": 12,
+        "exact_matches": 11,
+        "field_results": {
+          "form_title": {
+            "gold": "Income Certificate Application",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "state": {
+            "gold": "Maharashtra",
+            "pred": "Maharashtra",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "applicant_name": {
+            "gold": "Pooja Mehta",
+            "pred": "Pooja Mehta",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "19/09/2005",
+            "pred": "19/09/2005",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "gender": {
+            "gold": "Other",
+            "pred": "Other",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "district": {
+            "gold": "South Mumbai",
+            "pred": "South Mumbai",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "city": {
+            "gold": "Mumbai",
+            "pred": "Mumbai",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "ward": {
+            "gold": "Ward No. 20",
+            "pred": "Ward No. 20",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pin_code": {
+            "gold": "815351",
+            "pred": "815351",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "mobile_number": {
+            "gold": "+91 8415669288",
+            "pred": "+91 8415669288",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "aadhaar_number": {
+            "gold": "8974 1794 6746",
+            "pred": "8974 1794 6746",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "application_date": {
+            "gold": "13/10/2025",
+            "pred": "13/10/2025",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "id_doc_001.png",
+        "category": "id_doc",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 15668,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.75,
+        "fuzzy_accuracy": 0.75,
+        "num_fields": 4,
+        "exact_matches": 3,
+        "field_results": {
+          "name": {
+            "gold": "DEEPAK VERMA",
+            "pred": "DEEPAK VERMA",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "fathers_name": {
+            "gold": "POOJA MEHTA",
+            "pred": "POOJA MEHTA",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "02/09/1982",
+            "pred": "02/09/1982",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pan_number": {
+            "gold": "RPQBH8525N",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "id_doc_002.png",
+        "category": "id_doc",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 16707,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.0,
+        "fuzzy_accuracy": 0.0,
+        "num_fields": 5,
+        "exact_matches": 0,
+        "field_results": {
+          "name": {
+            "gold": "Deepak Verma",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "date_of_birth": {
+            "gold": "16/09/1976",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gender": {
+            "gold": "MALE",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "address": {
+            "gold": "699, MG Road, Jaipur",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "aadhaar_number": {
+            "gold": "9218 7853 8132",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "id_doc_003.png",
+        "category": "id_doc",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 15741,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.75,
+        "fuzzy_accuracy": 0.75,
+        "num_fields": 4,
+        "exact_matches": 3,
+        "field_results": {
+          "name": {
+            "gold": "ROHIT BOSE",
+            "pred": "ROHIT BOSE",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "fathers_name": {
+            "gold": "LAKSHMI NARAYANAN",
+            "pred": "LAKSHMI NARAYANAN",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "24/09/1964",
+            "pred": "24/09/1964",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pan_number": {
+            "gold": "MLVCD7534H",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "id_doc_004.png",
+        "category": "id_doc",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 16699,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.0,
+        "fuzzy_accuracy": 0.0,
+        "num_fields": 5,
+        "exact_matches": 0,
+        "field_results": {
+          "name": {
+            "gold": "Sunita Devi",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "date_of_birth": {
+            "gold": "11/03/1993",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gender": {
+            "gold": "FEMALE",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "address": {
+            "gold": "694, Gandhi Nagar, Bengaluru",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "aadhaar_number": {
+            "gold": "7108 1439 6620",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "id_doc_005.png",
+        "category": "id_doc",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 17104,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.75,
+        "fuzzy_accuracy": 0.75,
+        "num_fields": 4,
+        "exact_matches": 3,
+        "field_results": {
+          "name": {
+            "gold": "DEEPAK VERMA",
+            "pred": "DEEPAK VERMA",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "fathers_name": {
+            "gold": "SARLA BAJAJ",
+            "pred": "SARLA BAJAJ",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "date_of_birth": {
+            "gold": "07/02/2000",
+            "pred": "07/02/2000",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "pan_number": {
+            "gold": "MCKPS7430X",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "invoice_001.png",
+        "category": "invoice",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 28530,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.455,
+        "fuzzy_accuracy": 0.455,
+        "num_fields": 11,
+        "exact_matches": 5,
+        "field_results": {
+          "company_name": {
+            "gold": "Sharma Trading Co.",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gst_number": {
+            "gold": "22ZESYJ9406X7Z1",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "city": {
+            "gold": "Pune",
+            "pred": "Chennai",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_number": {
+            "gold": "INV-2024262",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_date": {
+            "gold": "18/09/2022",
+            "pred": "18/09/2022",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "due_date": {
+            "gold": "22/07/2024",
+            "pred": "22/07/2024",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "buyer_name": {
+            "gold": "Deepak Verma",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "subtotal": {
+            "gold": "Rs.21,388.00",
+            "pred": "Rs.21,388.00",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "cgst": {
+            "gold": "Rs.1,924.92",
+            "pred": "Rs.1,924.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "sgst": {
+            "gold": "Rs.1,924.92",
+            "pred": "Rs.1,924.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "grand_total": {
+            "gold": "Rs.25,237.84",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "invoice_002.png",
+        "category": "invoice",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 31905,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.545,
+        "fuzzy_accuracy": 0.545,
+        "num_fields": 11,
+        "exact_matches": 6,
+        "field_results": {
+          "company_name": {
+            "gold": "Mehta Enterprises Pvt Ltd",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gst_number": {
+            "gold": "30EJIDA4191X6ZW",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "city": {
+            "gold": "Pune",
+            "pred": "Chennai",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_number": {
+            "gold": "INV-2024131",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_date": {
+            "gold": "27/03/2025",
+            "pred": "27/03/2025",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "due_date": {
+            "gold": "20/11/2025",
+            "pred": "20/11/2025",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "buyer_name": {
+            "gold": "Sunita Devi",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "subtotal": {
+            "gold": "Rs.7,588.00",
+            "pred": "Rs.7,588.00",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "cgst": {
+            "gold": "Rs.682.92",
+            "pred": "Rs.682.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "sgst": {
+            "gold": "Rs.682.92",
+            "pred": "Rs.682.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "grand_total": {
+            "gold": "Rs.8,953.84",
+            "pred": "Rs.8,953.84",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "invoice_003.png",
+        "category": "invoice",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 29208,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.545,
+        "fuzzy_accuracy": 0.545,
+        "num_fields": 11,
+        "exact_matches": 6,
+        "field_results": {
+          "company_name": {
+            "gold": "Patel Goods & Services",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gst_number": {
+            "gold": "13KQBFU1623U5ZV",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "city": {
+            "gold": "Delhi",
+            "pred": "Pune",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_number": {
+            "gold": "INV-2024087",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_date": {
+            "gold": "23/06/2023",
+            "pred": "23/06/2023",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "due_date": {
+            "gold": "18/04/2024",
+            "pred": "18/04/2024",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "buyer_name": {
+            "gold": "Sunita Devi",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "subtotal": {
+            "gold": "Rs.7,226.00",
+            "pred": "Rs.7,226.00",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "cgst": {
+            "gold": "Rs.650.34",
+            "pred": "Rs.650.34",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "sgst": {
+            "gold": "Rs.650.34",
+            "pred": "Rs.650.34",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "grand_total": {
+            "gold": "Rs.8,526.68",
+            "pred": "Rs.8,526.68",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "invoice_004.png",
+        "category": "invoice",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 30810,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.545,
+        "fuzzy_accuracy": 0.545,
+        "num_fields": 11,
+        "exact_matches": 6,
+        "field_results": {
+          "company_name": {
+            "gold": "Kumar Brothers Ltd",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gst_number": {
+            "gold": "31PKRZP6424Q6Z2",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "city": {
+            "gold": "Kolkata",
+            "pred": "Chennai",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_number": {
+            "gold": "INV-2024784",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_date": {
+            "gold": "10/03/2024",
+            "pred": "10/03/2024",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "due_date": {
+            "gold": "08/07/2025",
+            "pred": "08/07/2025",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "buyer_name": {
+            "gold": "Sunita Devi",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "subtotal": {
+            "gold": "Rs.25,883.00",
+            "pred": "Rs.25,883.00",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "cgst": {
+            "gold": "Rs.2,329.47",
+            "pred": "Rs.2,329.47",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "sgst": {
+            "gold": "Rs.2,329.47",
+            "pred": "Rs.2,329.47",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "grand_total": {
+            "gold": "Rs.30,541.94",
+            "pred": "Rs.30,541.94",
+            "exact": true,
+            "token_f1": 1.0
+          }
+        }
+      },
+      {
+        "file": "invoice_005.png",
+        "category": "invoice",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 28398,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.455,
+        "fuzzy_accuracy": 0.455,
+        "num_fields": 11,
+        "exact_matches": 5,
+        "field_results": {
+          "company_name": {
+            "gold": "Singh Auto Parts",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "gst_number": {
+            "gold": "04EHUNA5073K4ZP",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "city": {
+            "gold": "Hyderabad",
+            "pred": "Mumbai",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_number": {
+            "gold": "INV-2024734",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "invoice_date": {
+            "gold": "19/02/2025",
+            "pred": "19/02/2025",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "due_date": {
+            "gold": "27/03/2024",
+            "pred": "27/03/2024",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "buyer_name": {
+            "gold": "Vikram Singh",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "subtotal": {
+            "gold": "Rs.25,388.00",
+            "pred": "Rs.25,388.00",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "cgst": {
+            "gold": "Rs.2,284.92",
+            "pred": "Rs.2,284.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "sgst": {
+            "gold": "Rs.2,284.92",
+            "pred": "Rs.2,284.92",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "grand_total": {
+            "gold": "Rs.29,957.84",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "ledger_001.png",
+        "category": "ledger",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 30350,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.2,
+        "fuzzy_accuracy": 0.2,
+        "num_fields": 5,
+        "exact_matches": 1,
+        "field_results": {
+          "shop_name": {
+            "gold": "Rajesh's General Store",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "month": {
+            "gold": "September",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "year": {
+            "gold": "2023",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "closing_balance": {
+            "gold": "10489",
+            "pred": "Rs. 10489",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "num_entries": {
+            "gold": "7",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "ledger_002.png",
+        "category": "ledger",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 38743,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.2,
+        "fuzzy_accuracy": 0.2,
+        "num_fields": 5,
+        "exact_matches": 1,
+        "field_results": {
+          "shop_name": {
+            "gold": "Priya's General Store",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "month": {
+            "gold": "March",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "year": {
+            "gold": "2023",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "closing_balance": {
+            "gold": "17614",
+            "pred": "Rs. 17614",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "num_entries": {
+            "gold": "10",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "ledger_003.png",
+        "category": "ledger",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 38235,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.2,
+        "fuzzy_accuracy": 0.2,
+        "num_fields": 5,
+        "exact_matches": 1,
+        "field_results": {
+          "shop_name": {
+            "gold": "Amit's General Store",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "month": {
+            "gold": "February",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "year": {
+            "gold": "2025",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "closing_balance": {
+            "gold": "13951",
+            "pred": "Rs. 13951",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "num_entries": {
+            "gold": "10",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "ledger_004.png",
+        "category": "ledger",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 42638,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.2,
+        "fuzzy_accuracy": 0.2,
+        "num_fields": 5,
+        "exact_matches": 1,
+        "field_results": {
+          "shop_name": {
+            "gold": "Sunita's General Store",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "month": {
+            "gold": "January",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "year": {
+            "gold": "2023",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "closing_balance": {
+            "gold": "17337",
+            "pred": "Rs. 17337",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "num_entries": {
+            "gold": "12",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      },
+      {
+        "file": "ledger_005.png",
+        "category": "ledger",
+        "model": "qwen3-vl-32b-instruct",
+        "extraction_ok": true,
+        "latency_ms": 49992,
+        "cost_usd": 0.0,
+        "field_accuracy": 0.2,
+        "fuzzy_accuracy": 0.2,
+        "num_fields": 5,
+        "exact_matches": 1,
+        "field_results": {
+          "shop_name": {
+            "gold": "Vikram's General Store",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "month": {
+            "gold": "December",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "year": {
+            "gold": "2023",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          },
+          "closing_balance": {
+            "gold": "14475",
+            "pred": "Rs. 14475",
+            "exact": true,
+            "token_f1": 1.0
+          },
+          "num_entries": {
+            "gold": "15",
+            "pred": "",
+            "exact": false,
+            "token_f1": 0.0
+          }
+        }
+      }
+    ],
+    "label": "qwen3-vl-32b-lmstudio",
+    "spec": "qwen3-vl-32b-lmstudio=lmstudio:qwen3-vl-32b-instruct"
+  }
+}

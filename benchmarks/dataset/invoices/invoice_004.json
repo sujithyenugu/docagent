@@ -1,0 +1,36 @@
+{
+  "category": "invoice",
+  "fields": {
+    "company_name": "Kumar Brothers Ltd",
+    "gst_number": "31PKRZP6424Q6Z2",
+    "city": "Kolkata",
+    "invoice_number": "INV-2024784",
+    "invoice_date": "10/03/2024",
+    "due_date": "08/07/2025",
+    "buyer_name": "Sunita Devi",
+    "subtotal": "Rs.25,883.00",
+    "cgst": "Rs.2,329.47",
+    "sgst": "Rs.2,329.47",
+    "grand_total": "Rs.30,541.94"
+  },
+  "line_items": [
+    {
+      "description": "Webcam HD",
+      "qty": 10,
+      "unit_price": 1799,
+      "total": 17990
+    },
+    {
+      "description": "Office Chairs",
+      "qty": 1,
+      "unit_price": 2499,
+      "total": 2499
+    },
+    {
+      "description": "Laptop Bag",
+      "qty": 6,
+      "unit_price": 899,
+      "total": 5394
+    }
+  ]
+}
